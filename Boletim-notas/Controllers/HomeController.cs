@@ -17,7 +17,7 @@ namespace BoletimNotas.Controllers
                 "Português",
                 "História",
                 "Geografia",
-                "Ciências"
+                "Quimica"
                 };
 
             ViewBag.Notas = new List<double>

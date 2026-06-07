@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Boletim-notas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebc35ad5ade6da49dba7ce61f63cb8f94db7dacd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8893a334aaad82353dd2c9c4d234984b2cffaee5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Boletim-notas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Boletim-notas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
