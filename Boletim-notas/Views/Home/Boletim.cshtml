@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Boletim";
+        ViewData["Title"] = "Boletim";
     List<string> disciplinas = ViewBag.Disciplinas;
     List<double> notas = ViewBag.Notas;
     double media = notas.Average();
@@ -7,7 +7,6 @@
 
 <h2>Boletim de Notas</h2>
 
-<!-- Passo 3: Tabela com Disciplina, Nota e Status -->
 <table border="1" cellpadding="8">
     <thead>
         <tr>
@@ -22,8 +21,6 @@
             <tr>
                 <td>@disciplinas[i]</td>
                 <td>@notas[i]</td>
-
-                <!-- Passo 4: @if Aprovado / Reprovado -->
                 <td>
                     @if (notas[i] >= 5)
                     {
@@ -37,8 +34,6 @@
             </tr>
         }
     </tbody>
-
-    <!-- Passo 5: Média geral no final -->
     <tfoot>
         <tr>
             <td><strong>Média Geral</strong></td>
@@ -57,25 +52,26 @@
     </tfoot>
 </table>
 
-<!-- Passo 6: @switch para classificação -->
 <br />
+
 @{
     string conceito = "";
 
-    switch (true)
+    if (media >= 9)
     {
-        case bool _ when media >= 9:
-            conceito = "A";
-            break;
-        case bool _ when media >= 7:
-            conceito = "B";
-            break;
-        case bool _ when media >= 5:
-            conceito = "C";
-            break;
-        default:
-            conceito = "D";
-            break;
+        conceito = "A";
+    }
+    else if (media >= 7)
+    {
+         conceito = "B";
+    }
+    else if (media >= 5)
+    {
+        conceito = "C";
+    }
+    else
+    {
+        conceito = "D";
     }
 }
 
