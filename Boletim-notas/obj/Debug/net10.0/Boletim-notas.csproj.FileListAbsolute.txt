@@ -1,0 +1,9 @@
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.AssemblyInfoInputs.cache
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.AssemblyInfo.cs
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.csproj.CoreCompileInputs.cache
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.RazorAssemblyInfo.cache
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.RazorAssemblyInfo.cs
+/workspaces/Boletim-Notas/Boletim-notas/obj/Debug/net10.0/Boletim-notas.sourcelink.json
